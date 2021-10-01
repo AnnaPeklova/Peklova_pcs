@@ -14,10 +14,7 @@ void PrintPipe(pipe& pipe) {
 
     cout << endl
         << "ID: " << pipe.id << endl
-        << "Diameter: " << pipe.diameter << endl
-        << "Dlina: " << pipe.lenght << endl
-        << "Status: " << pipe.v_remonte << endl;
-
+        << "Diamtr: " << pipe.diameter << endl;
 }
 
 pipe AddPipe() {
